@@ -31,5 +31,10 @@ const bandElement = document.getElementById("band");
 const banglaElements = document.getElementsByClassName("bangla");
 // console.log(banglaElements);
 for (const element of banglaElements) {
-  console.log(element.innerText); 
+  //   console.log(element.innerText);
+}
+
+const spanElements = document.querySelectorAll("#old-dhaka p span");
+for (const span of spanElements) {
+  //   console.log(span.innerText);
 }
